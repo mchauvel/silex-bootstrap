@@ -1,7 +1,7 @@
 silex-bootstrap
 ===============
 
-Skeletton application with Silex and Bottstrap
+Skeletton application with Silex and Bootstrap
 
 
 Installation

@@ -1,6 +1,6 @@
 {
     "name": "mchauvel/silex-bootstrap",
-    "description": "Skeletton application with Silex and Bottstrap",
+    "description": "Skeletton application with Silex and Bootstrap",
     "license": "MIT",
     
     "require": {
