@@ -9,7 +9,7 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/../views',
 ));
 
-$app->get('/{pageName}', function($pageName) use ($app) {
+$app->get('/{pageName}', function ($pageName) use ($app) {
     return $app['twig']->render($pageName.'.html.twig');
 })
 ->value('pageName', 'index');
